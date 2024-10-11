@@ -1,0 +1,406 @@
+/*   HEADER START   */
+.navbar{
+    display: flex;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    flex-grow: 1;
+    margin-left: 50px;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.logoSpan{
+    display: flex;
+    gap:1px;
+}
+
+/* nth-child ile nasıl yapabilirim   
+.logo span:nth-child(3){
+    color: red;
+} */
+
+.logoLeft{
+    color: blue;
+    font-size: 18px;
+}
+
+.logoRight{
+    color: black;
+    font-size: 18px;
+}
+/* 
+.logoSpan:hover{
+    logoright
+
+
+    bunu nasıl yapabilirim ?
+} */
+
+
+
+.menuItem{
+    flex-grow: 1;
+}
+
+.menuItem ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+
+.menuItem ul li a{
+    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 2%;
+}
+
+.menuItem ul li a:hover{
+    color: rgba(64, 75, 191, 1);
+}
+
+.menuItem ul li a:active{
+    border-bottom: 4px solid blue;
+    border-radius: 2px;
+    color: rgba(64, 75, 191, 1);
+}
+
+.menuItem a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: navy;
+}
+
+
+.info{
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+.info span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 50px;
+}
+
+
+.adres address{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+
+.adres p{
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 2%;
+line-height: 24px;
+color: #434455;
+}
+
+.adres:hover{
+    color: red;
+}
+/*----------HEADER END*/
+
+
+/*--------MAİN START*/
+
+.sectionOne{
+    width: 100%;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: #2E2F42;
+    align-items: center;
+
+
+
+}
+
+.sectionOne p{
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2%;
+    font-family: "Roboto", sans-serif;
+    color: white;
+
+
+}
+
+.sectionDiv{
+margin: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.orderButton {
+    color: white;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    padding: 16px 32px 16px 32px;
+    box-shadow: 0,0,0,0.15;
+    outline: none;
+    border: none;
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 4%;
+line-height: 24px;
+}
+
+.orderButton:hover{
+    background-color: #404BBF;
+}
+
+
+.sectionTwo{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+
+}
+
+/*Neden div içerisine auto verince ortalanıyorda section içerisine verince olmuyor ?*/
+
+.sectionDivTwo{
+    margin: auto;
+}
+
+
+.sectionDivTwoUl{
+    display: flex;
+    width: 1128px;
+    height: 104px;
+    list-style-type: none;
+
+}
+
+.sectionDivTwoUl li{
+    height: 104px;
+    width: 100%;
+}
+
+
+
+.listTittle{
+    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 2%;
+}
+
+.listDesc{
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 2%;
+color #434455;
+width: 264px;
+height: 72px;
+}
+
+
+
+.sectionThree{
+    width: 100%;
+    height: 732px;
+    background-color: #F4F4FD;
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team{
+    display: flex;
+    gap: 50px;
+}
+
+.teamPlayer{
+    width: 264px;
+    height: 380px;
+    background-color: white;
+    border-radius: 4px 4px;
+    padding-bottom: 32px;
+    border-radius: 12px;
+    box-shadow: #2E2F42;
+}
+
+.teamTitle{
+width: 162px;
+height: 40px;
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 2%
+;
+}
+
+.teamPlayer span{
+    width: 232px;
+    height: 56px;
+    align-items: center;
+    text-align: center;
+}
+
+.teamName{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+}
+
+.teamJob{
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 24px;
+ letter-spacing: 2%;
+}
+
+
+.portfolioElement img{
+    width: 360px;
+    height: 300px;
+    }
+    
+    
+
+.sectionFour{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+}
+.portfolioTitle{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 2%;
+    color: #2E2F42;
+}
+
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolioElement{
+    width: 360px;
+    height: 420px;
+    
+}
+
+.portfolioElement:hover{
+    transform: scale(1.1);
+
+}
+
+.portfolioName{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+}
+
+.portfolioDesc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+}
+
+.portfolioElement span{
+    text-align: start;
+
+}
+
+
+/*     MAİN END    */
+
+/*  FOOTER START */
+
+.sectionFive{
+    background-color: #2E2F42;
+    height: 312px;
+}
+
+.nameWeb{
+    color: #4D5AE5;
+    font-size: 18px;
+    letter-spacing: 3%;
+    line-height: 21px;
+
+}
+
+.footerName{
+    color: white;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+
+}
+
+.footer{
+    width: 262px;
+    height: 112px;
+    color: #F4f4FD;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-left: 10px;
+}
+
+.footerDesc p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    font-family: "Roboto", sans-serif;
+
+}
+
+/*   FOOTER END   */
