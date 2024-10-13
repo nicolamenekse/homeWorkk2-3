@@ -230,8 +230,12 @@ color: #434455;
     height: 120px;
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.4);
+    outline: none;
 }
+.contactComment textarea:active{
+    border: 2px solid rgba(77, 90, 229, 1);
 
+}
 .contactCheck{
     color: rgba(117, 117, 117, 1);
     font-weight:400;
