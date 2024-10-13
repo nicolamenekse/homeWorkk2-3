@@ -446,6 +446,7 @@ height: 72px;
     padding-bottom: 32px;
     border-radius: 12px;
     box-shadow: #2E2F42;
+    position: relative;
 }
 
 .teamTitle{
@@ -490,6 +491,8 @@ letter-spacing: 2%
     height: 40px;
     display: flex;
     gap: 24px;
+    position: absolute;
+    left: 20px;
 }
 
 .icons svg path:hover{
@@ -679,17 +682,21 @@ line-height: 24px;
 }
 
 #submit{
-    width: 165px;
+    width: 175px;
     height: 40px;
-    
     background: rgba(77, 90, 229, 1);
     color: white;
     font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 4%;
-border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    border: none;
+    background-image: url(ımages/Frame\ 3.svg);
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+    background-position: right;
 }
 
 .subscribe{
@@ -703,12 +710,11 @@ border: none;
     outline: none;
 }
 
-.subscribe svg {
-    background: rgba(77, 90, 229, 1);
-    height: 40px;
-    outline: none;
-    border: none;
+#submit:hover{
+    background-color: rgba(64, 75, 191, 1);
 }
+
+
 
 
 
