@@ -135,6 +135,172 @@ color: #434455;
 
 /*--------MAİN START*/
 
+/* .contact form{
+    width: 408px;
+    height: 584px;
+    border-radius: 4px;
+    background: rgba(252, 252, 252, 1);
+    border: 2px solid red;
+
+} */
+
+
+
+/*FORM START                                    */
+
+
+
+.contactDiv{
+    width: 408px;
+    height: 584px;
+    background-color: rgba(252, 252, 252, 1);
+    border-radius: 4px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 10px;
+}
+.contactDiv fieldset{
+    border: none;
+}
+.formTitle{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    width: 360px;
+}
+.formTitle svg {
+    margin-top: 10px;
+}
+
+.formTitle svg:hover{
+    stroke: white;
+    fill: rgba(77, 90, 229, 1);
+}
+
+
+.contactText{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: rgba(46, 47, 66, 1);
+    font-family: "Roboto", sans-serif;
+}
+
+
+.contactPerson{
+    display: flex;
+    flex-direction: column;
+    font-weight:400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 4%;
+    font-family: "Roboto", sans-serif;
+    align-items: start;
+    color: rgba(142, 143, 153, 1);
+}
+
+.contactPerson input{
+    width: 360px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid rgba(142, 143, 153, 1);
+    transition: border 0.5ms;
+}
+.contactPerson input:active{
+    border: 2px solid rgba(77, 90, 229, 1);
+}
+
+
+.contactComment{
+    color: rgba(142, 143, 153, 1);
+    font-weight:400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 4%;
+    font-family: "Roboto", sans-serif;    
+}
+
+.contactComment textarea{
+    width: 360px;
+    height: 120px;
+    border-radius: 4px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+}
+
+.contactCheck{
+    color: rgba(117, 117, 117, 1);
+    font-weight:400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 4%;
+    font-family: "Roboto", sans-serif;    
+}
+
+
+.privacyPolicy{
+    color:rgba(77, 90, 229, 1) ;
+    font-family: "Roboto", sans-serif;    
+font-weight: 500;
+line-height: 14px;
+letter-spacing: 4%;
+font-size: 12px;
+border-bottom: 1px solid rgba(77, 90, 229, 1);
+
+}
+
+
+
+#send{
+    width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    padding: 16px 32px 16px 32px;
+    color: white;
+    background-color: rgba(77, 90, 229, 1);
+    border: none;
+    margin-left: 105px;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;    
+    font-weight: 500;
+    letter-spacing: 4%;
+    align-items: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+#name{
+    background-image: url(ımages/name.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+#phone{
+    background-image: url(ımages/phone.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#email{
+    background-image: url(ımages/email.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+/* FORM END                                      */
+
+
+
+
+
 .sectionOne{
     width: 100%;
     display: flex;
@@ -420,7 +586,6 @@ letter-spacing: 2%
 .sectionFive{
     display: flex;
     position: relative;
-    align-items: center;
 }
 .footer{
     width: 262px;
@@ -449,6 +614,7 @@ letter-spacing: 2%
     flex-direction: column;
     position: absolute;
     left: 500px;
+    top: 50px;
 }
 
 .socialMedia p {
@@ -471,4 +637,80 @@ color: rgba(255, 255, 255, 1);
     cursor: pointer;
     fill: rgba(49, 208, 170, 1);
 }
+
+.inputs{
+    width: 453px;
+    height: 80px;
+    left: 800px;
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.inputs input::placeholder{
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 4%;
+line-height: 24px;
+}
+#inputs{
+    width: 264px;
+    height: 34px;
+    border-radius: 4px;
+    border: 1px solid white;
+    outline: none;
+}
+.inputs label{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+
+#submit{
+    width: 165px;
+    height: 40px;
+    
+    background: rgba(77, 90, 229, 1);
+    color: white;
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 4%;
+border: none;
+}
+
+.subscribe{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 8px 24px 8px 24px;
+    border: none;
+    outline: none;
+}
+
+.subscribe svg {
+    background: rgba(77, 90, 229, 1);
+    height: 40px;
+    outline: none;
+    border: none;
+}
+
+
+
+
+
+
+
+
 /*   FOOTER END   */
